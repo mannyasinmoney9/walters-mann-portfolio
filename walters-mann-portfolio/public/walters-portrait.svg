@@ -1,0 +1,92 @@
+<svg width="960" height="1200" viewBox="0 0 960 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="112" y1="84" x2="864" y2="1128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#13233C"/>
+      <stop offset="0.55" stop-color="#0D1629"/>
+      <stop offset="1" stop-color="#08111F"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(696 212) rotate(134.65) scale(440 401)">
+      <stop stop-color="#FF8A2A" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#FF8A2A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(480 522) rotate(90) scale(462 386)">
+      <stop stop-color="#324D7A"/>
+      <stop offset="1" stop-color="#0C1424"/>
+    </radialGradient>
+    <linearGradient id="hood" x1="319" y1="292" x2="657" y2="996" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#202734"/>
+      <stop offset="1" stop-color="#05080E"/>
+    </linearGradient>
+    <linearGradient id="hoodEdge" x1="304" y1="346" x2="661" y2="926" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171D28"/>
+      <stop offset="1" stop-color="#0A0F18"/>
+    </linearGradient>
+    <linearGradient id="face" x1="372" y1="448" x2="595" y2="810" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8C614B"/>
+      <stop offset="1" stop-color="#603B2A"/>
+    </linearGradient>
+    <linearGradient id="neck" x1="451" y1="760" x2="541" y2="918" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#704634"/>
+      <stop offset="1" stop-color="#513222"/>
+    </linearGradient>
+    <linearGradient id="lens" x1="358" y1="564" x2="552" y2="670" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FE3FF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#5C75FF" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="250" y1="824" x2="719" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58606E"/>
+      <stop offset="1" stop-color="#121A27"/>
+    </linearGradient>
+    <filter id="softShadow" x="200" y="208" width="560" height="808" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="28" stdDeviation="42" flood-color="#050911" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="1200" rx="48" fill="url(#bg)"/>
+  <rect width="960" height="1200" rx="48" fill="url(#glow)"/>
+
+  <g opacity="0.28">
+    <path d="M135 137H823" stroke="#6F89AB" stroke-width="2" stroke-dasharray="10 14"/>
+    <path d="M137 989H825" stroke="#6F89AB" stroke-width="2" stroke-dasharray="10 14"/>
+    <path d="M164 178L164 1020" stroke="#6F89AB" stroke-width="1.5" stroke-opacity="0.5"/>
+    <path d="M794 178L794 1020" stroke="#6F89AB" stroke-width="1.5" stroke-opacity="0.5"/>
+  </g>
+
+  <circle cx="480" cy="532" r="264" fill="url(#halo)"/>
+
+  <g filter="url(#softShadow)">
+    <path d="M298 347C356 261 412 220 480 220C548 220 606 261 664 347C719 428 731 505 731 594C731 702 692 812 629 882C593 922 548 948 480 948C412 948 367 922 331 882C268 812 229 702 229 594C229 505 241 428 298 347Z" fill="url(#hood)"/>
+    <path d="M330 403C366 330 418 289 480 289C542 289 594 330 630 403C658 460 664 523 664 596C664 680 630 757 580 810C551 840 522 861 480 861C438 861 409 840 380 810C330 757 296 680 296 596C296 523 302 460 330 403Z" fill="url(#hoodEdge)"/>
+    <path d="M480 405C536 405 581 451 581 518V611C581 688 536 744 480 744C424 744 379 688 379 611V518C379 451 424 405 480 405Z" fill="url(#face)"/>
+    <path d="M428 766C442 738 459 726 480 726C501 726 518 738 532 766C548 797 554 833 556 868C557 907 518 938 480 938C442 938 403 907 404 868C406 833 412 797 428 766Z" fill="url(#neck)"/>
+    <path d="M333 406C369 325 421 291 480 291C539 291 591 325 627 406L597 425C568 360 529 334 480 334C431 334 392 360 363 425L333 406Z" fill="#232B37"/>
+    <path d="M397 554C397 519 425 491 460 491H500C535 491 563 519 563 554V595C563 630 535 658 500 658H460C425 658 397 630 397 595V554Z" fill="url(#lens)"/>
+    <path d="M397 554C397 519 425 491 460 491H500C535 491 563 519 563 554V595C563 630 535 658 500 658H460C425 658 397 630 397 595V554Z" stroke="#BBD1FF" stroke-width="8"/>
+    <path d="M458 574H502" stroke="#BBD1FF" stroke-width="7" stroke-linecap="round"/>
+    <path d="M355 535C355 501 383 474 417 474H445C479 474 507 501 507 535V578C507 612 479 640 445 640H417C383 640 355 612 355 578V535Z" fill="url(#lens)"/>
+    <path d="M355 535C355 501 383 474 417 474H445C479 474 507 501 507 535V578C507 612 479 640 445 640H417C383 640 355 612 355 578V535Z" stroke="#BBD1FF" stroke-width="8"/>
+    <path d="M452 554C452 548 457 543 463 543H497C503 543 508 548 508 554V560H452V554Z" fill="#C3D7FF"/>
+    <path d="M505 520L545 496" stroke="#D5E4FF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M357 528L319 508" stroke="#D5E4FF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M448 620C470 632 490 632 512 620" stroke="#241814" stroke-width="6" stroke-linecap="round" stroke-opacity="0.6"/>
+    <path d="M440 684C461 694 499 694 520 684" stroke="#241814" stroke-width="8" stroke-linecap="round" stroke-opacity="0.68"/>
+    <path d="M447 580C450 570 458 562 469 562H491C502 562 510 570 513 580" stroke="#775445" stroke-width="5" stroke-linecap="round" stroke-opacity="0.7"/>
+    <path d="M439 706C449 726 463 737 480 737C497 737 511 726 521 706" stroke="#7B4F38" stroke-width="5" stroke-linecap="round" stroke-opacity="0.6"/>
+    <path d="M289 819C318 771 354 747 394 747H404C432 747 449 760 454 783L466 846C472 877 450 907 420 907H346C301 907 264 872 264 827C264 825 264 822 265 820C265 818 266 816 267 815C274 794 282 781 289 819Z" fill="url(#metal)"/>
+    <path d="M671 819C642 771 606 747 566 747H556C528 747 511 760 506 783L494 846C488 877 510 907 540 907H614C659 907 696 872 696 827C696 825 696 822 695 820C695 818 694 816 693 815C686 794 678 781 671 819Z" fill="url(#metal)"/>
+    <path d="M342 767C372 759 397 766 419 786" stroke="#1B2535" stroke-width="16" stroke-linecap="round"/>
+    <path d="M618 767C588 759 563 766 541 786" stroke="#1B2535" stroke-width="16" stroke-linecap="round"/>
+    <path d="M364 950C407 967 446 975 480 975C514 975 553 967 596 950" stroke="#0B1018" stroke-width="20" stroke-linecap="round" opacity="0.65"/>
+    <path d="M265 879C319 935 384 975 480 975C576 975 641 935 695 879" stroke="#0E1520" stroke-width="22" stroke-linecap="round"/>
+    <path d="M318 838C352 917 412 971 480 971C548 971 608 917 642 838" stroke="#101723" stroke-width="18" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="141" y="128" width="177" height="58" rx="29" fill="rgba(10,18,33,0.62)"/>
+    <rect x="141" y="128" width="177" height="58" rx="29" stroke="#3C5B84"/>
+    <text x="173" y="165" fill="#E6F0FF" font-family="JetBrains Mono, monospace" font-size="22" letter-spacing="3">PORTFOLIO</text>
+    <rect x="658" y="1014" width="161" height="58" rx="29" fill="rgba(10,18,33,0.62)"/>
+    <rect x="658" y="1014" width="161" height="58" rx="29" stroke="#5EF0B6"/>
+    <text x="690" y="1050" fill="#DFFAF0" font-family="JetBrains Mono, monospace" font-size="22" letter-spacing="2.5">AVAILABLE</text>
+  </g>
+</svg>

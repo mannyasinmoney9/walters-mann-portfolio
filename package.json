@@ -1,0 +1,11 @@
+{
+  "name": "walters-mann-portfolio-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ./walters-mann-portfolio run dev --",
+    "build": "npm --prefix ./walters-mann-portfolio run build --",
+    "preview": "npm --prefix ./walters-mann-portfolio run preview --",
+    "lint": "npm --prefix ./walters-mann-portfolio run lint --",
+    "install:app": "npm --prefix ./walters-mann-portfolio install"
+  }
+}
